@@ -71,11 +71,11 @@ trypass() {
 
 execcommand() {
 	export $GNSU_PASSWORD
-	sudo -A $CMD
+	sudo -A $CMD &
 }
 
 execcommandnopass() {
-	sudo $CMD
+	sudo $CMD &
 }
 
 passwordloop() {
