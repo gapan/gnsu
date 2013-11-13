@@ -50,7 +50,7 @@ askpass() {
 		MSG="$( eval_gettext "Permission denied" )\n\n$MSG"
 	fi
 	GNSU_PASSWORD=$( yad \
-		--title="gnsu" \
+		--title="$CMD" \
 		--window-icon=$ICON \
 		--image=$ICON \
 		--text="$MSG" \
