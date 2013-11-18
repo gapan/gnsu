@@ -1,0 +1,79 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+#
+# Translators:
+#   <seacat.linux@gmail.com>, 2012.
+msgid ""
+msgstr ""
+"Project-Id-Version: Salix\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2013-11-18 13:59+0200\n"
+"PO-Revision-Date: 2012-07-04 00:01+0000\n"
+"Last-Translator: seacat <seacat.linux@gmail.com>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: es\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1)\n"
+
+#: src/gnsu:50
+#, sh-format
+msgid "Permission denied"
+msgstr "Permiso denegado"
+
+#: src/gnsu:48
+#, sh-format
+msgid "Please enter the\\npassword for $u:"
+msgstr ""
+
+#~ msgid "Command not found"
+#~ msgstr "No se encontró el comando"
+
+#~ msgid "Command passed is invalid"
+#~ msgstr "El comando pasado es inválido"
+
+#~ msgid "Could not run '$u'"
+#~ msgstr "No se pudo ejecutar «$u»"
+
+#~ msgid "Could not run command"
+#~ msgstr "No se pudo ejecutar el comando"
+
+#~ msgid "Invalid username or password"
+#~ msgstr "Usuario o contraseña inválidos"
+
+#~ msgid "No command given"
+#~ msgstr "No se dió el comando"
+
+#~ msgid "No message and command specified"
+#~ msgstr "No se especificó el mensaje ni el comando"
+
+#~ msgid "No user and command specified"
+#~ msgstr "No se especificó el usuario ni el comando"
+
+#~ msgid "Password"
+#~ msgstr "Contraseña"
+
+#~ msgid ""
+#~ "Please enter the\n"
+#~ "password for $u:"
+#~ msgstr ""
+#~ "Por favor ingrese la\n"
+#~ "contraseña para $u:"
+
+#~ msgid ""
+#~ "Please enter the desired\n"
+#~ "username and password:"
+#~ msgstr ""
+#~ "Por favor ingrese el nombre de\n"
+#~ "usuario y contraseña deseados:"
+
+#~ msgid "Success"
+#~ msgstr "Éxito"
+
+#~ msgid "Unknown error calling the su command"
+#~ msgstr "Error desconocido al llamar al comando su"
+
+#~ msgid "Username"
+#~ msgstr "Nombre de usuario"

@@ -1,0 +1,71 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+#
+# Translators:
+# gapan <vlahavas@gmail.com>, 2011.
+# Hugo Carvalho <hugokarvalho@hotmail.com>, 2012.
+msgid ""
+msgstr ""
+"Project-Id-Version: Salix\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2013-11-18 13:59+0200\n"
+"PO-Revision-Date: 2012-07-03 09:46+0000\n"
+"Last-Translator: gapan <vlahavas@gmail.com>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: pt_BR\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n > 1)\n"
+
+#: src/gnsu:50
+#, sh-format
+msgid "Permission denied"
+msgstr "Permissão negada"
+
+#: src/gnsu:48
+#, sh-format
+msgid "Please enter the\\npassword for $u:"
+msgstr ""
+
+#~ msgid "Command not found"
+#~ msgstr "Comando não encontrado"
+
+#~ msgid "Could not run '$u'"
+#~ msgstr "Não foi possível executar '$u'"
+
+#~ msgid "Could not run command"
+#~ msgstr "Não foi possível executar o comando"
+
+#~ msgid "No command given"
+#~ msgstr "Comando inexistente"
+
+#~ msgid "No message and command specified"
+#~ msgstr "Não há mensagem e comando especificados."
+
+#~ msgid "No user and command specified"
+#~ msgstr "Não há usuário e comando especificados"
+
+#~ msgid "Password"
+#~ msgstr "Senha"
+
+#~ msgid ""
+#~ "Please enter the\n"
+#~ "password for $u:"
+#~ msgstr ""
+#~ "Por favor, insira a\n"
+#~ "a senha para $u:"
+
+#~ msgid ""
+#~ "Please enter the desired\n"
+#~ "username and password:"
+#~ msgstr ""
+#~ "Por favor, insira o nome do\n"
+#~ "usuário e senha desejados"
+
+#~ msgid "Success"
+#~ msgstr "Sucesso"
+
+#~ msgid "Username"
+#~ msgstr "Nome do usuário"

@@ -1,0 +1,80 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+#
+# Translators:
+#   <futur.andy@googlemail.com>, 2012.
+msgid ""
+msgstr ""
+"Project-Id-Version: Salix\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2013-11-18 13:59+0200\n"
+"PO-Revision-Date: 2012-07-03 11:05+0000\n"
+"Last-Translator: shador <futur.andy@googlemail.com>\n"
+"Language-Team: German (http://www.transifex.com/projects/p/salix/language/"
+"de/)\n"
+"Language: de\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1)\n"
+
+#: src/gnsu:50
+#, sh-format
+msgid "Permission denied"
+msgstr "Zugriff verweigert"
+
+#: src/gnsu:48
+#, sh-format
+msgid "Please enter the\\npassword for $u:"
+msgstr ""
+
+#~ msgid "Command not found"
+#~ msgstr "Befehl nicht gefunden"
+
+#~ msgid "Command passed is invalid"
+#~ msgstr "Übergebener Befehl ist ungültig"
+
+#~ msgid "Could not run '$u'"
+#~ msgstr "Kann '$u' nicht ausführen"
+
+#~ msgid "Could not run command"
+#~ msgstr "Konnte Befehl nicht ausführen"
+
+#~ msgid "Invalid username or password"
+#~ msgstr "Ungültiger Nutzername oder Passwort"
+
+#~ msgid "No command given"
+#~ msgstr "Kein Befehl eingegeben"
+
+#~ msgid "No message and command specified"
+#~ msgstr "Nachricht und Befehl nicht eingegeben"
+
+#~ msgid "No user and command specified"
+#~ msgstr "Benutzer und Befehl nicht eingegeben"
+
+#~ msgid "Password"
+#~ msgstr "Passwort"
+
+#~ msgid ""
+#~ "Please enter the\n"
+#~ "password for $u:"
+#~ msgstr ""
+#~ "Bitte geben Sie das\n"
+#~ "Passwort für $u ein:"
+
+#~ msgid ""
+#~ "Please enter the desired\n"
+#~ "username and password:"
+#~ msgstr ""
+#~ "Bitte geben Sie den gewünschten Nutzer\n"
+#~ "und das Passwort ein:"
+
+#~ msgid "Success"
+#~ msgstr "Erfolg"
+
+#~ msgid "Unknown error calling the su command"
+#~ msgstr "Unbekannter Fehler beim Aufruf des \"su\"-Befehls"
+
+#~ msgid "Username"
+#~ msgstr "Benutzer"

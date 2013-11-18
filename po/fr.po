@@ -1,0 +1,80 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+#
+# Translators:
+# Cyrille Pontvieux <jrd@enialis.net>, 2012.
+msgid ""
+msgstr ""
+"Project-Id-Version: Salix\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2013-11-18 13:59+0200\n"
+"PO-Revision-Date: 2012-07-03 09:55+0000\n"
+"Last-Translator: Cyrille Pontvieux <jrd@enialis.net>\n"
+"Language-Team: French (http://www.transifex.com/projects/p/salix/language/"
+"fr/)\n"
+"Language: fr\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n > 1)\n"
+
+#: src/gnsu:50
+#, sh-format
+msgid "Permission denied"
+msgstr "Autorisation refusée"
+
+#: src/gnsu:48
+#, sh-format
+msgid "Please enter the\\npassword for $u:"
+msgstr ""
+
+#~ msgid "Command not found"
+#~ msgstr "Commande non trouvée"
+
+#~ msgid "Command passed is invalid"
+#~ msgstr "La commande saisie est invalide"
+
+#~ msgid "Could not run '$u'"
+#~ msgstr "Ne peut pas exécuter '$u'"
+
+#~ msgid "Could not run command"
+#~ msgstr "Impossible d'exécuter la commande"
+
+#~ msgid "Invalid username or password"
+#~ msgstr "Utilisateur ou mot de passe invalide"
+
+#~ msgid "No command given"
+#~ msgstr "Aucune commande spécifiée"
+
+#~ msgid "No message and command specified"
+#~ msgstr "Aucun message et commande spécifiés"
+
+#~ msgid "No user and command specified"
+#~ msgstr "Aucun utilisateur et commande spécifiés"
+
+#~ msgid "Password"
+#~ msgstr "Mot de passe"
+
+#~ msgid ""
+#~ "Please enter the\n"
+#~ "password for $u:"
+#~ msgstr ""
+#~ "Veuillez saisir le mot de passe\n"
+#~ "pour $u :"
+
+#~ msgid ""
+#~ "Please enter the desired\n"
+#~ "username and password:"
+#~ msgstr ""
+#~ "Veuillez saisir le nom d'utilisateur\n"
+#~ "et le mot de passe désiré :"
+
+#~ msgid "Success"
+#~ msgstr "Succès"
+
+#~ msgid "Unknown error calling the su command"
+#~ msgstr "Erreur inconnue lors de l'appel à la commande su"
+
+#~ msgid "Username"
+#~ msgstr "Utilisateur"
