@@ -45,7 +45,7 @@ storedpass() {
 }
 
 askpass() {
-	MSG=$( eval_gettext "Please enter the\npassword for $u:" )
+	MSG="$( eval_gettext 'Please enter the\npassword for $u:' )"
 	if [ $COUNT -lt $PASSWORDTRIES ]; then
 		MSG="$( eval_gettext "Permission denied" )\n\n$MSG"
 	fi
