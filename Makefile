@@ -18,6 +18,7 @@ pot:
 
 clean:
 	rm -f po/*.mo
+	rm -f po/*.po~
 
 install:
 	install -Dm 755 src/gnsu $(DESTDIR)/$(PREFIX)/bin/gnsu
