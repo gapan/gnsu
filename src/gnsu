@@ -31,7 +31,7 @@ init() {
 
 help() {
 	cat <<- EOF
-	Usage: [OPTION] command [COMMAND ARGUMENTS]
+	Usage: $0 [OPTION] command [COMMAND ARGUMENTS]
 	Run a command with escalated priviliges through sudo
 	
 	OPTIONS:
