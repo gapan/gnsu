@@ -27,7 +27,7 @@ msgstr "Permesso negato"
 #: src/gnsu:48
 #, sh-format
 msgid "Please enter the\\npassword for $u:"
-msgstr ""
+msgstr "Per favore inserisci\\nla password per $u:"
 
 #~ msgid "Command not found"
 #~ msgstr "Comando non trovato"
@@ -55,11 +55,6 @@ msgstr ""
 
 #~ msgid "Password"
 #~ msgstr "Password"
-
-#~ msgid ""
-#~ "Please enter the\n"
-#~ "password for $u:"
-#~ msgstr "Per favore inserisci la password per $u:"
 
 #~ msgid ""
 #~ "Please enter the desired\n"

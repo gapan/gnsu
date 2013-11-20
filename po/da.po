@@ -25,7 +25,7 @@ msgstr "Adgang nægtet"
 #: src/gnsu:48
 #, sh-format
 msgid "Please enter the\\npassword for $u:"
-msgstr ""
+msgstr "Indtast venligst\\nadgangskoden for $u:"
 
 #~ msgid "Command not found"
 #~ msgstr "Kommando ikke fundet"
@@ -48,19 +48,8 @@ msgstr ""
 #~ msgid "Password"
 #~ msgstr "Adgangskode"
 
-#~ msgid ""
-#~ "Please enter the\n"
-#~ "password for $u:"
-#~ msgstr ""
-#~ "Indtast venligst\n"
-#~ "adgangskoden for $u:"
-
-#~ msgid ""
-#~ "Please enter the desired\n"
-#~ "username and password:"
-#~ msgstr ""
-#~ "Indtast venligst det ønskede\n"
-#~ "brugernavn og adgangskode:"
+#~ msgid "Please enter the desired\\nusername and password:"
+#~ msgstr "Indtast venligst det ønskede\\nbrugernavn og adgangskode:"
 
 #~ msgid "Success"
 #~ msgstr "Success"

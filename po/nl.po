@@ -26,7 +26,7 @@ msgstr "Toegang geweigerd"
 #: src/gnsu:48
 #, sh-format
 msgid "Please enter the\\npassword for $u:"
-msgstr ""
+msgstr "Vul het wachtwoord\\nin voor$u:"
 
 #~ msgid "Command not found"
 #~ msgstr "Commando niet gevonden"
@@ -48,13 +48,6 @@ msgstr ""
 
 #~ msgid "Password"
 #~ msgstr "Wachtwoord"
-
-#~ msgid ""
-#~ "Please enter the\n"
-#~ "password for $u:"
-#~ msgstr ""
-#~ "Vul het wachtwoord\n"
-#~ "in voor$u:"
 
 #~ msgid ""
 #~ "Please enter the desired\n"

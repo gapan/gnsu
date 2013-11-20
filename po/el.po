@@ -26,7 +26,7 @@ msgstr "Άρνηση πρόσβασης"
 #: src/gnsu:48
 #, sh-format
 msgid "Please enter the\\npassword for $u:"
-msgstr ""
+msgstr "Παρακαλούμε εισάγετε τον\\nκωδικό για το χρήστη $u:"
 
 #~ msgid "Command not found"
 #~ msgstr "Η εντολή δεν βρέθηκε"
@@ -55,19 +55,8 @@ msgstr ""
 #~ msgid "Password"
 #~ msgstr "Κωδικός"
 
-#~ msgid ""
-#~ "Please enter the\n"
-#~ "password for $u:"
-#~ msgstr ""
-#~ "Παρακαλούμε εισάγετε τον\n"
-#~ "κωδικό για το χρήστη $u:"
-
-#~ msgid ""
-#~ "Please enter the desired\n"
-#~ "username and password:"
-#~ msgstr ""
-#~ "Παρακαλούμε εισάγετε το επιθυμητό\n"
-#~ "όνομα χρήστη και κωδικό:"
+#~ msgid "Please enter the desired\\nusername and password:"
+#~ msgstr "Παρακαλούμε εισάγετε το επιθυμητό\\nόνομα χρήστη και κωδικό:"
 
 #~ msgid "Success"
 #~ msgstr "Επιτυχία"

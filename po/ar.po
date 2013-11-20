@@ -27,7 +27,7 @@ msgstr "رفض الإذن"
 #: src/gnsu:48
 #, sh-format
 msgid "Please enter the\\npassword for $u:"
-msgstr ""
+msgstr "الرجاء إدخال \\nكلمة المرور $u:"
 
 #~ msgid "Command not found"
 #~ msgstr "لم يُعثَر على الأمر"
@@ -49,13 +49,6 @@ msgstr ""
 
 #~ msgid "Password"
 #~ msgstr "كلمة المرور"
-
-#~ msgid ""
-#~ "Please enter the\n"
-#~ "password for $u:"
-#~ msgstr ""
-#~ "الرجاء إدخال \n"
-#~ "كلمة المرور $u:"
 
 #~ msgid ""
 #~ "Please enter the desired\n"

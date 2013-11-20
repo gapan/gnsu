@@ -25,7 +25,7 @@ msgstr "パーミッション拒否です。"
 #: src/gnsu:48
 #, sh-format
 msgid "Please enter the\\npassword for $u:"
-msgstr ""
+msgstr "$u のためのパスワードを\\n入力してください。"
 
 #~ msgid "Command not found"
 #~ msgstr "コマンドが、見つかりません。"
@@ -47,13 +47,6 @@ msgstr ""
 
 #~ msgid "Password"
 #~ msgstr "パスワード"
-
-#~ msgid ""
-#~ "Please enter the\n"
-#~ "password for $u:"
-#~ msgstr ""
-#~ "$u のためのパスワードを\n"
-#~ "入力してください。"
 
 #~ msgid ""
 #~ "Please enter the desired\n"

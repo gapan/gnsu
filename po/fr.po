@@ -27,7 +27,7 @@ msgstr "Autorisation refusée"
 #: src/gnsu:48
 #, sh-format
 msgid "Please enter the\\npassword for $u:"
-msgstr ""
+msgstr "Veuillez saisir le mot de passe\\npour $u :"
 
 #~ msgid "Command not found"
 #~ msgstr "Commande non trouvée"
@@ -55,13 +55,6 @@ msgstr ""
 
 #~ msgid "Password"
 #~ msgstr "Mot de passe"
-
-#~ msgid ""
-#~ "Please enter the\n"
-#~ "password for $u:"
-#~ msgstr ""
-#~ "Veuillez saisir le mot de passe\n"
-#~ "pour $u :"
 
 #~ msgid ""
 #~ "Please enter the desired\n"

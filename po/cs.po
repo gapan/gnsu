@@ -25,7 +25,7 @@ msgstr "Přístup zamítnut"
 #: src/gnsu:48
 #, sh-format
 msgid "Please enter the\\npassword for $u:"
-msgstr ""
+msgstr "Prosím zadejte\\nheslo pro $u:"
 
 #~ msgid "Command not found"
 #~ msgstr "Příkaz nebyl nalezen"
@@ -48,19 +48,8 @@ msgstr ""
 #~ msgid "Password"
 #~ msgstr "Heslo"
 
-#~ msgid ""
-#~ "Please enter the\n"
-#~ "password for $u:"
-#~ msgstr ""
-#~ "Prosím zadejte\n"
-#~ "heslo pro $u:"
-
-#~ msgid ""
-#~ "Please enter the desired\n"
-#~ "username and password:"
-#~ msgstr ""
-#~ "Prosím zadejte požadované\n"
-#~ "uživatelské jméno a heslo:"
+#~ msgid "Please enter the desired\\nusername and password:"
+#~ msgstr "Prosím zadejte požadované\\nuživatelské jméno a heslo:"
 
 #~ msgid "Success"
 #~ msgstr "Úspěch"

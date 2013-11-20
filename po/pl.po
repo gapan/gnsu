@@ -28,7 +28,7 @@ msgstr "Dostęp zabroniony"
 #: src/gnsu:48
 #, sh-format
 msgid "Please enter the\\npassword for $u:"
-msgstr ""
+msgstr "Proszę podać\\nhasło dla $u:"
 
 #~ msgid "Command not found"
 #~ msgstr "Polecenie nie znalezione"
@@ -50,13 +50,6 @@ msgstr ""
 
 #~ msgid "Password"
 #~ msgstr "Hasło"
-
-#~ msgid ""
-#~ "Please enter the\n"
-#~ "password for $u:"
-#~ msgstr ""
-#~ "Proszę podać \n"
-#~ "hasło dla $u:"
 
 #~ msgid ""
 #~ "Please enter the desired\n"

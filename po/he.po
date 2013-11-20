@@ -28,7 +28,7 @@ msgstr "ההרשאה נדחתה"
 #: src/gnsu:48
 #, sh-format
 msgid "Please enter the\\npassword for $u:"
-msgstr ""
+msgstr "נא להזין את הסיסמא\\nעבור המשתמש $u:"
 
 #~ msgid "Command not found"
 #~ msgstr "הפקודה לא נמצאה"
@@ -57,19 +57,8 @@ msgstr ""
 #~ msgid "Password"
 #~ msgstr "סיסמא"
 
-#~ msgid ""
-#~ "Please enter the\n"
-#~ "password for $u:"
-#~ msgstr ""
-#~ "נא להזין את הסיסמא\n"
-#~ "עבור המשתמש $u:"
-
-#~ msgid ""
-#~ "Please enter the desired\n"
-#~ "username and password:"
-#~ msgstr ""
-#~ "נא להזין את שם המשתמש\n"
-#~ "ואת הסיסמא המבוקשים:"
+#~ msgid "Please enter the desired\\nusername and password:"
+#~ msgstr "נא להזין את שם המשתמש\\nואת הסיסמא המבוקשים:"
 
 #~ msgid "Success"
 #~ msgstr "הצלחה"

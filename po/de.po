@@ -27,7 +27,7 @@ msgstr "Zugriff verweigert"
 #: src/gnsu:48
 #, sh-format
 msgid "Please enter the\\npassword for $u:"
-msgstr ""
+msgstr "Bitte geben Sie das\\nPasswort für $u ein:"
 
 #~ msgid "Command not found"
 #~ msgstr "Befehl nicht gefunden"
@@ -55,13 +55,6 @@ msgstr ""
 
 #~ msgid "Password"
 #~ msgstr "Passwort"
-
-#~ msgid ""
-#~ "Please enter the\n"
-#~ "password for $u:"
-#~ msgstr ""
-#~ "Bitte geben Sie das\n"
-#~ "Passwort für $u ein:"
 
 #~ msgid ""
 #~ "Please enter the desired\n"

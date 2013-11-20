@@ -27,7 +27,7 @@ msgstr "Доступ запрещен"
 #: src/gnsu:48
 #, sh-format
 msgid "Please enter the\\npassword for $u:"
-msgstr ""
+msgstr "Введите\\nпароль для $u:"
 
 #~ msgid "Command not found"
 #~ msgstr "Команда не найдена"
@@ -49,13 +49,6 @@ msgstr ""
 
 #~ msgid "Password"
 #~ msgstr "Пароль"
-
-#~ msgid ""
-#~ "Please enter the\n"
-#~ "password for $u:"
-#~ msgstr ""
-#~ "Введите \n"
-#~ "пароль для $u:"
 
 #~ msgid ""
 #~ "Please enter the desired\n"

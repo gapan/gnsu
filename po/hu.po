@@ -27,7 +27,7 @@ msgstr "Hozzáférés megtagadva"
 #: src/gnsu:48
 #, sh-format
 msgid "Please enter the\\npassword for $u:"
-msgstr ""
+msgstr "Adja meg a\\njelszót ehhez: $u:"
 
 #~ msgid "Command not found"
 #~ msgstr "A parancs nem található"
@@ -56,19 +56,8 @@ msgstr ""
 #~ msgid "Password"
 #~ msgstr "Jelszó"
 
-#~ msgid ""
-#~ "Please enter the\n"
-#~ "password for $u:"
-#~ msgstr ""
-#~ "Adja meg a\n"
-#~ "jelszót ehhez: $u:"
-
-#~ msgid ""
-#~ "Please enter the desired\n"
-#~ "username and password:"
-#~ msgstr ""
-#~ "Adja meg a kívánt\n"
-#~ "felhasználónevet és jelszót:"
+#~ msgid "Please enter the desired\\nusername and password:"
+#~ msgstr "Adja meg a kívánt\\nfelhasználónevet és jelszót:"
 
 #~ msgid "Success"
 #~ msgstr "Siker"
