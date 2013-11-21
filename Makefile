@@ -31,4 +31,4 @@ install:
 	done
 
 
- .PHONY: mo updatepo pot clean install
+.PHONY: mo updatepo pot clean install
