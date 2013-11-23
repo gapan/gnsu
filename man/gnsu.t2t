@@ -1,0 +1,47 @@
+gnsu
+George Vlahavas
+%%mtime(%m/%d/%Y)
+
+%!target: man
+%!encoding: utf-8
+%!postproc(man): "^(\.TH.*) 1 "  "\1 8 "
+
+= NAME =
+
+gnsu - Gnsu's Not SU
+
+
+= SYNOPSIS =
+
+**gnsu** //COMMAND// [//COMMANDOPTIONS//]
+
+
+= DESCRIPTION =
+
+**gnsu** allows a permitted user to execute a //command// with superuser priviliges. **gnsu** shows a graphical dialog requesting the user password to allow the execution of the specified command.
+
+As **gnsu** uses **sudo** as its backend, the password that you need to provide is your user's password, //not// the //root// user password.
+
+The user, or a group the user is part of, has to be allowed access to launching applications using sudo. This can be accomplished by editing the **/etc/sudoers** file using the **visudo** command.
+
+
+= GENERAL OPTIONS =
+
+: **-h**, **--help**
+Prints a usage message briefly summarizing all command-line options
+and exits.
+
+
+= WEBSITE =
+
+https://github.com/gapan/gnsu
+
+
+= AUTHORS =
+
+gnsu was written by George Vlahavas <vlahavas~at~gmail~dot~com>
+
+
+= SEE ALSO =
+
+**sudo**(8), **su**(8), **visudo**(8), **sudoers**(5)
