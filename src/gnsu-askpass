@@ -1,0 +1,68 @@
+#!/usr/bin/env python
+
+import gtk
+import os
+import sys
+import getopt
+
+# Internationalization
+import locale
+import gettext
+import gtk.glade
+gtk.glade.bindtextdomain("gnsu", "/usr/share/locale")
+gtk.glade.textdomain("gnsu")
+gettext.install("gnsu", "/usr/share/locale", unicode=1)
+gtk.glade.bindtextdomain("gnsu", "/usr/share/locale")
+gtk.glade.textdomain("gnsu")
+
+class Gnsu():
+	def on_button_ok_clicked(self, widget, data=None):
+		self.window.hide()
+		print self.entry_password.get_text()
+		gtk.main_quit()
+
+	def on_button_cancel_clicked(self, widget, data=None):
+		gtk.main_quit()
+		sys.exit(1)
+
+	def gtk_main_quit(self, widget, data=None):
+		gtk.main_quit()
+		sys.exit(1)
+	
+	def __init__(self):
+		user = None
+		title = None
+		permission_denied = False
+		try:
+			argv = sys.argv[1:]
+			opts, args = getopt.getopt(argv, "u:t:p", ['user=', 'title=', 'permission-denied'])
+			for opt, arg in opts:
+				if opt in ("-u", "--user"):
+					user = arg
+				elif opt in ("-t", "--title"):
+					title = arg
+				elif opt in ("-p", "--permission-denied"):
+					permission_denied = True
+		except getopt.GetoptError:
+			sys.exit(1)
+		if (user is None) or (title is None):
+			sys.exit(1)
+		builder = gtk.Builder()
+		if os.path.exists('gnsu-askpass.glade'):
+			builder.add_from_file('gnsu-askpass.glade')
+		elif os.path.exists('/usr/share/gnsu/gnsu-askpass.glade'):
+			builder.add_from_file('/usr/share/gnsu/gnsu-askpass.glade')
+		self.window = builder.get_object('gnsu_askpass')
+		self.window.set_title(title)
+		self.label_msg = builder.get_object('label_msg')
+		self.entry_password = builder.get_object('entry_password')
+		msg = _('Please enter the password for %s:')%user
+		if permission_denied:
+			msg = _('Permission denied.')+'\n\n'+msg
+		self.label_msg.set_text(msg)	
+		builder.connect_signals(self)
+
+if __name__ == "__main__":
+	app = Gnsu()
+	app.window.show()
+	gtk.main()
