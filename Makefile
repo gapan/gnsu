@@ -3,6 +3,8 @@ DESTDIR ?= /
 LIBEXEC_DIR ?= /usr/libexec
 PACKAGE_LOCALE_DIR ?= /usr/share/locale
 
+all: mo man
+
 mo:
 	for i in `ls po/*.po`; do \
 		msgfmt $$i -o `echo $$i | sed "s/\.po//"`.mo; \
@@ -16,13 +18,21 @@ updatepo:
 pot:
 	xgettext -L shell -o po/gnsu.pot src/gnsu
 
+man:
+	txt2tags -o man/gnsu.man man/gnsu.t2t
+
 clean:
 	rm -f po/*.mo
 	rm -f po/*.po~
+	rm -f man/gnsu.man
 
-install:
+install: install-gnsu install-mo install-man
+
+install-gnsu:
 	install -Dm 755 src/gnsu $(DESTDIR)/$(PREFIX)/bin/gnsu
 	install -Dm 755 src/gnsu-helper $(DESTDIR)/$(LIBEXEC_DIR)/gnsu-helper
+
+install-mo:
 	for i in `ls po/*.po | sed 's/.po//' | xargs -n1 basename` ;do \
 		if [ ! -d $(DESTDIR)$(PACKAGE_LOCALE_DIR)/$$i/LC_MESSAGES ]; then \
 			mkdir -p $(DESTDIR)$(PACKAGE_LOCALE_DIR)/$$i/LC_MESSAGES; \
@@ -30,5 +40,7 @@ install:
 	   	msgfmt -o $(DESTDIR)$(PACKAGE_LOCALE_DIR)/$$i/LC_MESSAGES/gnsu.mo po/$$i.po; \
 	done
 
+install-man:
+	install -Dm 644 man/gnsu.man $(DESTDIR)/$(PREFIX)/man/man8/gnsu.8
 
-.PHONY: mo updatepo pot clean install
+.PHONY: mo updatepo pot man clean install install-gnsu install-mo install-man
