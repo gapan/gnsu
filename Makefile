@@ -16,7 +16,7 @@ updatepo:
 	done
 
 pot:
-	xgettext -L shell -o po/gnsu.pot src/gnsu
+	xgettext -L python -o po/gnsu.pot src/gnsu-askpass
 
 man:
 	txt2tags -o man/gnsu.man man/gnsu.t2t
