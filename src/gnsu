@@ -64,13 +64,11 @@ askpass() {
 }
 
 trypass() {
-	export $GNSU_PASSWORD
 	sudo -A $TRUE 2> /dev/null
 	return $?
 }
 
 execcommand() {
-	export $GNSU_PASSWORD
 	sudo -A $CMD &
 }
 
