@@ -5,33 +5,29 @@
 # Translators:
 msgid ""
 msgstr ""
-"Project-Id-Version: Salix\n"
+"Project-Id-Version: Salix Report-Msgid-Bugs-To:  POT-Creation-Date: "
+"2013-11-18 13:59+0200 PO-Revision-Date: 2012-07-03 09:46+0000 Last-"
+"Translator: gapan <vlahavas@gmail.com> Language-Team: LANGUAGE <LL@li.org> "
+"Language: cs MIME-Version: 1.0 Content-Type: text/plain; charset=UTF-8 "
+"Content-Transfer-Encoding: 8bit Plural-Forms: nplurals=3; plural=(n==1) ? "
+"0 : (n>=2 && n<=4) ? 1 : 2 \n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2013-11-18 13:59+0200\n"
-"PO-Revision-Date: 2012-07-03 09:46+0000\n"
-"Last-Translator: gapan <vlahavas@gmail.com>\n"
-"Language-Team: LANGUAGE <LL@li.org>\n"
-"Language: cs\n"
-"MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=UTF-8\n"
-"Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=3; plural=(n==1) ? 0 : (n>=2 && n<=4) ? 1 : 2\n"
+"POT-Creation-Date: 2013-11-24 00:01+0200\n"
 
-#: src/gnsu:50
-#, sh-format
+#: src/gnsu-askpass:61
 msgid "Permission denied"
 msgstr "Přístup zamítnut"
 
-#: src/gnsu:48
-#, sh-format
-msgid "Please enter the\\npassword for $u:"
-msgstr "Prosím zadejte\\nheslo pro $u:"
+#: src/gnsu-askpass:59
+#, python-format
+msgid "Please enter the password for %s:"
+msgstr "Prosím zadejte heslo pro %s:"
 
 #~ msgid "Command not found"
 #~ msgstr "Příkaz nebyl nalezen"
 
-#~ msgid "Could not run '$u'"
-#~ msgstr "Nemohu spustit '$u' "
+#~ msgid "Could not run '%s'"
+#~ msgstr "Nemohu spustit '%s' "
 
 #~ msgid "Could not run command"
 #~ msgstr "Není možné spustit příkaz"
@@ -48,8 +44,8 @@ msgstr "Prosím zadejte\\nheslo pro $u:"
 #~ msgid "Password"
 #~ msgstr "Heslo"
 
-#~ msgid "Please enter the desired\\nusername and password:"
-#~ msgstr "Prosím zadejte požadované\\nuživatelské jméno a heslo:"
+#~ msgid "Please enter the desired username and password:"
+#~ msgstr "Prosím zadejte požadované uživatelské jméno a heslo:"
 
 #~ msgid "Success"
 #~ msgstr "Úspěch"

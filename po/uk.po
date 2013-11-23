@@ -6,28 +6,24 @@
 # Yarema aka Knedlyk <yupadmin@gmail.com>, 2012.
 msgid ""
 msgstr ""
-"Project-Id-Version: Salix\n"
+"Project-Id-Version: Salix Report-Msgid-Bugs-To:  POT-Creation-Date: "
+"2013-11-18 13:59+0200 PO-Revision-Date: 2012-07-03 11:40+0000 Last-"
+"Translator: Yarema aka Knedlyk <yupadmin@gmail.com> Language-Team: LANGUAGE "
+"<LL@li.org> Language: uk MIME-Version: 1.0 Content-Type: text/plain; "
+"charset=UTF-8 Content-Transfer-Encoding: 8bit Plural-Forms: nplurals=3; "
+"plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n"
+"%100>=20) ? 1 : 2) \n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2013-11-18 13:59+0200\n"
-"PO-Revision-Date: 2012-07-03 11:40+0000\n"
-"Last-Translator: Yarema aka Knedlyk <yupadmin@gmail.com>\n"
-"Language-Team: LANGUAGE <LL@li.org>\n"
-"Language: uk\n"
-"MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=UTF-8\n"
-"Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n"
-"%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2)\n"
+"POT-Creation-Date: 2013-11-24 00:01+0200\n"
 
-#: src/gnsu:50
-#, sh-format
+#: src/gnsu-askpass:61
 msgid "Permission denied"
 msgstr "Доступ заборонено"
 
-#: src/gnsu:48
-#, sh-format
-msgid "Please enter the\\npassword for $u:"
-msgstr "Будь ласка, введіть\\nпароль для $u:"
+#: src/gnsu-askpass:59
+#, python-format
+msgid "Please enter the password for %s:"
+msgstr "Будь ласка, введіть пароль для %s:"
 
 #~ msgid "Command not found"
 #~ msgstr "Команду не знайдено"
@@ -35,8 +31,8 @@ msgstr "Будь ласка, введіть\\nпароль для $u:"
 #~ msgid "Command passed is invalid"
 #~ msgstr "Виконана команда неправильна"
 
-#~ msgid "Could not run '$u'"
-#~ msgstr "Не можу запустити '$u'"
+#~ msgid "Could not run '%s'"
+#~ msgstr "Не можу запустити '%s'"
 
 #~ msgid "Could not run command"
 #~ msgstr "Не можу запустити команду"
@@ -56,12 +52,8 @@ msgstr "Будь ласка, введіть\\nпароль для $u:"
 #~ msgid "Password"
 #~ msgstr "Пароль"
 
-#~ msgid ""
-#~ "Please enter the desired\n"
-#~ "username and password:"
-#~ msgstr ""
-#~ "Будь ласка, введіть бажану\n"
-#~ "назву користувача і пароль:"
+#~ msgid "Please enter the desired username and password:"
+#~ msgstr "Будь ласка, введіть бажану назву користувача і пароль:"
 
 #~ msgid "Success"
 #~ msgstr "Успішно"

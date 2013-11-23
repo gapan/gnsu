@@ -6,27 +6,22 @@
 #   <vlahavas@gmail.com>, 2012.
 msgid ""
 msgstr ""
-"Project-Id-Version: Salix\n"
+"Project-Id-Version: Salix Report-Msgid-Bugs-To:  POT-Creation-Date: "
+"2013-11-18 13:59+0200 PO-Revision-Date: 2012-07-03 09:46+0000 Last-"
+"Translator: gapan <vlahavas@gmail.com> Language-Team: LANGUAGE <LL@li.org> "
+"Language: el MIME-Version: 1.0 Content-Type: text/plain; charset=UTF-8 "
+"Content-Transfer-Encoding: 8bit Plural-Forms: nplurals=2; plural=(n != 1) \n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2013-11-18 13:59+0200\n"
-"PO-Revision-Date: 2012-07-03 09:46+0000\n"
-"Last-Translator: gapan <vlahavas@gmail.com>\n"
-"Language-Team: LANGUAGE <LL@li.org>\n"
-"Language: el\n"
-"MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=UTF-8\n"
-"Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=2; plural=(n != 1)\n"
+"POT-Creation-Date: 2013-11-24 00:01+0200\n"
 
-#: src/gnsu:50
-#, sh-format
+#: src/gnsu-askpass:61
 msgid "Permission denied"
 msgstr "Άρνηση πρόσβασης"
 
-#: src/gnsu:48
-#, sh-format
-msgid "Please enter the\\npassword for $u:"
-msgstr "Παρακαλούμε εισάγετε τον\\nκωδικό για το χρήστη $u:"
+#: src/gnsu-askpass:59
+#, python-format
+msgid "Please enter the password for %s:"
+msgstr "Παρακαλούμε εισάγετε τον κωδικό για το χρήστη %s:"
 
 #~ msgid "Command not found"
 #~ msgstr "Η εντολή δεν βρέθηκε"
@@ -34,8 +29,8 @@ msgstr "Παρακαλούμε εισάγετε τον\\nκωδικό για τ�
 #~ msgid "Command passed is invalid"
 #~ msgstr "Η εντολή που δόθηκε δεν ήταν έγκυρη"
 
-#~ msgid "Could not run '$u'"
-#~ msgstr "Δεν ήταν δυνατό να εκτελεστεί το '$u'"
+#~ msgid "Could not run '%s'"
+#~ msgstr "Δεν ήταν δυνατό να εκτελεστεί το '%s'"
 
 #~ msgid "Could not run command"
 #~ msgstr "Δεν ήταν δυνατό να εκτελεστεί η εντολή"
@@ -55,8 +50,8 @@ msgstr "Παρακαλούμε εισάγετε τον\\nκωδικό για τ�
 #~ msgid "Password"
 #~ msgstr "Κωδικός"
 
-#~ msgid "Please enter the desired\\nusername and password:"
-#~ msgstr "Παρακαλούμε εισάγετε το επιθυμητό\\nόνομα χρήστη και κωδικό:"
+#~ msgid "Please enter the desired username and password:"
+#~ msgstr "Παρακαλούμε εισάγετε το επιθυμητό όνομα χρήστη και κωδικό:"
 
 #~ msgid "Success"
 #~ msgstr "Επιτυχία"

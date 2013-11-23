@@ -6,27 +6,23 @@
 # Ingemar Karlsson <ingemar@ingk.se>, 2012.
 msgid ""
 msgstr ""
-"Project-Id-Version: Salix\n"
+"Project-Id-Version: Salix Report-Msgid-Bugs-To:  POT-Creation-Date: "
+"2013-11-18 13:59+0200 PO-Revision-Date: 2012-07-03 15:27+0000 Last-"
+"Translator: Ingemar Karlsson <ingemar@ingk.se> Language-Team: LANGUAGE "
+"<LL@li.org> Language: sv MIME-Version: 1.0 Content-Type: text/plain; "
+"charset=UTF-8 Content-Transfer-Encoding: 8bit Plural-Forms: nplurals=2; "
+"plural=(n != 1) \n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2013-11-18 13:59+0200\n"
-"PO-Revision-Date: 2012-07-03 15:27+0000\n"
-"Last-Translator: Ingemar Karlsson <ingemar@ingk.se>\n"
-"Language-Team: LANGUAGE <LL@li.org>\n"
-"Language: sv\n"
-"MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=UTF-8\n"
-"Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=2; plural=(n != 1)\n"
+"POT-Creation-Date: 2013-11-24 00:01+0200\n"
 
-#: src/gnsu:50
-#, sh-format
+#: src/gnsu-askpass:61
 msgid "Permission denied"
 msgstr "Ingen rättighet"
 
-#: src/gnsu:48
-#, sh-format
-msgid "Please enter the\\npassword for $u:"
-msgstr "Skriv in\\nlösenordet för $u:"
+#: src/gnsu-askpass:59
+#, python-format
+msgid "Please enter the password for %s:"
+msgstr "Skriv in lösenordet för %s:"
 
 #~ msgid "Command not found"
 #~ msgstr "Kunde inte hitta kommando"
@@ -34,8 +30,8 @@ msgstr "Skriv in\\nlösenordet för $u:"
 #~ msgid "Command passed is invalid"
 #~ msgstr "Kommandot som skickades är ogiltig"
 
-#~ msgid "Could not run '$u'"
-#~ msgstr "Kunde inte köra '$u'"
+#~ msgid "Could not run '%s'"
+#~ msgstr "Kunde inte köra '%s'"
 
 #~ msgid "Could not run command"
 #~ msgstr "Kunde inte köra kommando"
@@ -55,12 +51,8 @@ msgstr "Skriv in\\nlösenordet för $u:"
 #~ msgid "Password"
 #~ msgstr "Lösenord"
 
-#~ msgid ""
-#~ "Please enter the desired\n"
-#~ "username and password:"
-#~ msgstr ""
-#~ "Skriv in önskad\n"
-#~ "användarnamn och lösenord:"
+#~ msgid "Please enter the desired username and password:"
+#~ msgstr "Skriv in önskad användarnamn och lösenord:"
 
 #~ msgid "Success"
 #~ msgstr "Lyckades"

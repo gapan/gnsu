@@ -5,33 +5,28 @@
 # Translators:
 msgid ""
 msgstr ""
-"Project-Id-Version: Salix\n"
+"Project-Id-Version: Salix Report-Msgid-Bugs-To:  POT-Creation-Date: "
+"2013-11-18 13:59+0200 PO-Revision-Date: 2012-07-03 09:46+0000 Last-"
+"Translator: gapan <vlahavas@gmail.com> Language-Team: LANGUAGE <LL@li.org> "
+"Language: da MIME-Version: 1.0 Content-Type: text/plain; charset=UTF-8 "
+"Content-Transfer-Encoding: 8bit Plural-Forms: nplurals=2; plural=(n != 1) \n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2013-11-18 13:59+0200\n"
-"PO-Revision-Date: 2012-07-03 09:46+0000\n"
-"Last-Translator: gapan <vlahavas@gmail.com>\n"
-"Language-Team: LANGUAGE <LL@li.org>\n"
-"Language: da\n"
-"MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=UTF-8\n"
-"Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=2; plural=(n != 1)\n"
+"POT-Creation-Date: 2013-11-24 00:01+0200\n"
 
-#: src/gnsu:50
-#, sh-format
+#: src/gnsu-askpass:61
 msgid "Permission denied"
 msgstr "Adgang nægtet"
 
-#: src/gnsu:48
-#, sh-format
-msgid "Please enter the\\npassword for $u:"
-msgstr "Indtast venligst\\nadgangskoden for $u:"
+#: src/gnsu-askpass:59
+#, python-format
+msgid "Please enter the password for %s:"
+msgstr "Indtast venligst adgangskoden for %s:"
 
 #~ msgid "Command not found"
 #~ msgstr "Kommando ikke fundet"
 
-#~ msgid "Could not run '$u'"
-#~ msgstr "Kunne ikke køre '$u'"
+#~ msgid "Could not run '%s'"
+#~ msgstr "Kunne ikke køre '%s'"
 
 #~ msgid "Could not run command"
 #~ msgstr "Kunne ikke køre kommandoen"
@@ -48,8 +43,8 @@ msgstr "Indtast venligst\\nadgangskoden for $u:"
 #~ msgid "Password"
 #~ msgstr "Adgangskode"
 
-#~ msgid "Please enter the desired\\nusername and password:"
-#~ msgstr "Indtast venligst det ønskede\\nbrugernavn og adgangskode:"
+#~ msgid "Please enter the desired username and password:"
+#~ msgstr "Indtast venligst det ønskede brugernavn og adgangskode:"
 
 #~ msgid "Success"
 #~ msgstr "Success"

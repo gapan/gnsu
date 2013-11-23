@@ -6,28 +6,23 @@
 #   <futur.andy@googlemail.com>, 2012.
 msgid ""
 msgstr ""
-"Project-Id-Version: Salix\n"
+"Project-Id-Version: Salix Report-Msgid-Bugs-To:  POT-Creation-Date: "
+"2013-11-18 13:59+0200 PO-Revision-Date: 2012-07-03 11:05+0000 Last-"
+"Translator: shador <futur.andy@googlemail.com> Language-Team: German (http://"
+"www.transifex.com/projects/p/salix/language/de/) Language: de MIME-Version: "
+"1.0 Content-Type: text/plain; charset=UTF-8 Content-Transfer-Encoding: 8bit "
+"Plural-Forms: nplurals=2; plural=(n != 1) \n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2013-11-18 13:59+0200\n"
-"PO-Revision-Date: 2012-07-03 11:05+0000\n"
-"Last-Translator: shador <futur.andy@googlemail.com>\n"
-"Language-Team: German (http://www.transifex.com/projects/p/salix/language/"
-"de/)\n"
-"Language: de\n"
-"MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=UTF-8\n"
-"Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=2; plural=(n != 1)\n"
+"POT-Creation-Date: 2013-11-24 00:01+0200\n"
 
-#: src/gnsu:50
-#, sh-format
+#: src/gnsu-askpass:61
 msgid "Permission denied"
 msgstr "Zugriff verweigert"
 
-#: src/gnsu:48
-#, sh-format
-msgid "Please enter the\\npassword for $u:"
-msgstr "Bitte geben Sie das\\nPasswort für $u ein:"
+#: src/gnsu-askpass:59
+#, python-format
+msgid "Please enter the password for %s:"
+msgstr "Bitte geben Sie das Passwort für %s ein:"
 
 #~ msgid "Command not found"
 #~ msgstr "Befehl nicht gefunden"
@@ -35,8 +30,8 @@ msgstr "Bitte geben Sie das\\nPasswort für $u ein:"
 #~ msgid "Command passed is invalid"
 #~ msgstr "Übergebener Befehl ist ungültig"
 
-#~ msgid "Could not run '$u'"
-#~ msgstr "Kann '$u' nicht ausführen"
+#~ msgid "Could not run '%s'"
+#~ msgstr "Kann '%s' nicht ausführen"
 
 #~ msgid "Could not run command"
 #~ msgstr "Konnte Befehl nicht ausführen"
@@ -56,12 +51,8 @@ msgstr "Bitte geben Sie das\\nPasswort für $u ein:"
 #~ msgid "Password"
 #~ msgstr "Passwort"
 
-#~ msgid ""
-#~ "Please enter the desired\n"
-#~ "username and password:"
-#~ msgstr ""
-#~ "Bitte geben Sie den gewünschten Nutzer\n"
-#~ "und das Passwort ein:"
+#~ msgid "Please enter the desired username and password:"
+#~ msgstr "Bitte geben Sie den gewünschten Nutzer und das Passwort ein:"
 
 #~ msgid "Success"
 #~ msgstr "Erfolg"
