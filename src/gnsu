@@ -25,6 +25,7 @@ init() {
 	export TRUE=/usr/bin/true
 
 	export SUDO_ASKPASS=/usr/libexec/gnsu-helper
+	export GNSU_ASKPASS=/usr/libexec/gnsu-askpass
 
 	export COUNT=$PASSWORDTRIES
 }
@@ -45,17 +46,16 @@ storedpass() {
 }
 
 askpass() {
-	MSG="$( eval_gettext 'Please enter the\npassword for $u:' )"
 	if [ $COUNT -lt $PASSWORDTRIES ]; then
-		MSG="$( eval_gettext "Permission denied" )\n\n$MSG"
+		PERMISSION="-p"
+	else
+		PERMISSION=""
 	fi
-	GNSU_PASSWORD=$( yad \
+	GNSU_PASSWORD=$( $GNSU_ASKPASS \
 		--title="$CMD" \
-		--window-icon=$ICON \
-		--image=$ICON \
-		--text="$MSG" \
-		--hide-text \
-		--entry 2> /dev/null)
+		--user="$u" \
+		$PERMISSION \
+		2> /dev/null)
 	retval=$?
 	if [ $retval -ne 0 ]; then
 		exit 0
