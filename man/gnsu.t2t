@@ -18,7 +18,7 @@ gnsu - Gnsu's Not SU
 
 = DESCRIPTION =
 
-**gnsu** allows a permitted user to execute a //command// with superuser priviliges. **gnsu** shows a graphical dialog requesting the user password to allow the execution of the specified command.
+**gnsu** allows a permitted user to execute a //command// with superuser privileges. **gnsu** shows a graphical dialog requesting the user password to allow the execution of the specified command.
 
 As **gnsu** uses **sudo** as its backend, the password that you need to provide is your user's password, //not// the //root// user password.
 

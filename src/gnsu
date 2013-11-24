@@ -33,7 +33,7 @@ init() {
 help() {
 	cat <<- EOF
 	Usage: $0 [OPTION] command [COMMAND ARGUMENTS]
-	Run a command with escalated priviliges through sudo
+	Run a command with escalated privileges through sudo
 	
 	OPTIONS:
 	        -h, --help           Show this help
