@@ -31,8 +31,8 @@ init() {
 
 help() {
 	cat <<- EOF
-	Usage: $0 [OPTION] command [COMMAND ARGUMENTS]
-	Run a command with escalated privileges through sudo
+	Usage: $0 [SUDO OPTIONS] command [COMMAND ARGUMENTS]
+	Run a command as another user through sudo
 	
 	OPTIONS:
 	        -h, --help           Show this help
