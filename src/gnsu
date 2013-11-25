@@ -6,6 +6,8 @@ PASSWORDTRIES=3
 
 CMD="$@"
 
+LIBEXECDIR=/usr/libexec
+
 init() {
 	export PATH="${PATH}:/sbin:/usr/sbin:/usr/local/sbin"
 
@@ -23,8 +25,8 @@ init() {
 
 	export TRUE=/usr/bin/true
 
-	export SUDO_ASKPASS=/usr/libexec/gnsu-helper
-	export GNSU_ASKPASS=/usr/libexec/gnsu-askpass
+	export SUDO_ASKPASS=$LIBEXECDIR/gnsu-helper
+	export GNSU_ASKPASS=$LIBEXECDIR/gnsu-askpass
 
 	export COUNT=$PASSWORDTRIES
 }
