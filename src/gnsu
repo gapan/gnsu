@@ -1,6 +1,6 @@
 #!/bin/sh
-
-# /usr/bin/gnsu: gnsu's not su
+#
+# gnsu: gnsu's not su
 
 PASSWORDTRIES=3
 
