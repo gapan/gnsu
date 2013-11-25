@@ -21,7 +21,6 @@ init() {
 
 	export u=`whoami`
 
-	export ICON=lock
 	export TRUE=/usr/bin/true
 
 	export SUDO_ASKPASS=/usr/libexec/gnsu-helper
