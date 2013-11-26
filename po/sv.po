@@ -1,64 +1,28 @@
 # SOME DESCRIPTIVE TITLE.
 # Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
 # This file is distributed under the same license as the PACKAGE package.
-#
+# 
 # Translators:
-# Ingemar Karlsson <ingemar@ingk.se>, 2012.
+# Ingemar Karlsson <ingemar@ingk.se>, 2012
 msgid ""
 msgstr ""
-"Project-Id-Version: Salix Report-Msgid-Bugs-To:  POT-Creation-Date: "
-"2013-11-18 13:59+0200 PO-Revision-Date: 2012-07-03 15:27+0000 Last-"
-"Translator: Ingemar Karlsson <ingemar@ingk.se> Language-Team: LANGUAGE "
-"<LL@li.org> Language: sv MIME-Version: 1.0 Content-Type: text/plain; "
-"charset=UTF-8 Content-Transfer-Encoding: 8bit Plural-Forms: nplurals=2; "
-"plural=(n != 1) \n"
+"Project-Id-Version: Salix\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2013-11-24 00:01+0200\n"
-
-#: src/gnsu-askpass:61
-msgid "Permission denied"
-msgstr "Ingen rättighet"
+"PO-Revision-Date: 2013-11-26 10:28+0000\n"
+"Last-Translator: gapan <vlahavas@gmail.com>\n"
+"Language-Team: Swedish (http://www.transifex.com/projects/p/salix/language/sv/)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: sv\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
 #: src/gnsu-askpass:59
 #, python-format
 msgid "Please enter the password for %s:"
 msgstr "Skriv in lösenordet för %s:"
 
-#~ msgid "Command not found"
-#~ msgstr "Kunde inte hitta kommando"
-
-#~ msgid "Command passed is invalid"
-#~ msgstr "Kommandot som skickades är ogiltig"
-
-#~ msgid "Could not run '%s'"
-#~ msgstr "Kunde inte köra '%s'"
-
-#~ msgid "Could not run command"
-#~ msgstr "Kunde inte köra kommando"
-
-#~ msgid "Invalid username or password"
-#~ msgstr "Ogiltigt användarnamn eller lösenord"
-
-#~ msgid "No command given"
-#~ msgstr "Inget kommando angivet"
-
-#~ msgid "No message and command specified"
-#~ msgstr "Inget meddelande och kommando angivet"
-
-#~ msgid "No user and command specified"
-#~ msgstr "Inget användarnamn och kommando angivet"
-
-#~ msgid "Password"
-#~ msgstr "Lösenord"
-
-#~ msgid "Please enter the desired username and password:"
-#~ msgstr "Skriv in önskad användarnamn och lösenord:"
-
-#~ msgid "Success"
-#~ msgstr "Lyckades"
-
-#~ msgid "Unknown error calling the su command"
-#~ msgstr "Okänt fel vid anrop till su kommandot"
-
-#~ msgid "Username"
-#~ msgstr "Användarnamn:"
+#: src/gnsu-askpass:61
+msgid "Permission denied"
+msgstr "Ingen rättighet"

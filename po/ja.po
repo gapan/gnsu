@@ -1,53 +1,27 @@
 # SOME DESCRIPTIVE TITLE.
 # Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
 # This file is distributed under the same license as the PACKAGE package.
-#
+# 
 # Translators:
 msgid ""
 msgstr ""
-"Project-Id-Version: Salix Report-Msgid-Bugs-To:  POT-Creation-Date: "
-"2013-11-18 13:59+0200 PO-Revision-Date: 2012-07-03 09:46+0000 Last-"
-"Translator: gapan <vlahavas@gmail.com> Language-Team: LANGUAGE <LL@li.org> "
-"Language: ja MIME-Version: 1.0 Content-Type: text/plain; charset=UTF-8 "
-"Content-Transfer-Encoding: 8bit Plural-Forms: nplurals=1; plural=0 \n"
+"Project-Id-Version: Salix\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2013-11-24 00:01+0200\n"
-
-#: src/gnsu-askpass:61
-msgid "Permission denied"
-msgstr "パーミッション拒否です。"
+"PO-Revision-Date: 2013-11-26 10:29+0000\n"
+"Last-Translator: gapan <vlahavas@gmail.com>\n"
+"Language-Team: Japanese (http://www.transifex.com/projects/p/salix/language/ja/)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: ja\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
 
 #: src/gnsu-askpass:59
 #, python-format
 msgid "Please enter the password for %s:"
 msgstr "%s のためのパスワードを 入力してください。"
 
-#~ msgid "Command not found"
-#~ msgstr "コマンドが、見つかりません。"
-
-#~ msgid "Could not run '%s'"
-#~ msgstr "'%s'は、使うことができません。"
-
-#~ msgid "Could not run command"
-#~ msgstr "このコマンドは、実行できません。"
-
-#~ msgid "No command given"
-#~ msgstr "実行するコマンドを、入力してください。"
-
-#~ msgid "No message and command specified"
-#~ msgstr "メッセージとコマンドが設定されていません。"
-
-#~ msgid "No user and command specified"
-#~ msgstr "ユーザとコマンドを設定してください。"
-
-#~ msgid "Password"
-#~ msgstr "パスワード"
-
-#~ msgid "Please enter the desired username and password:"
-#~ msgstr "使用したいユーザネームと/nパスワードを入力してください。"
-
-#~ msgid "Success"
-#~ msgstr "完了"
-
-#~ msgid "Username"
-#~ msgstr "ユーザネーム"
+#: src/gnsu-askpass:61
+msgid "Permission denied"
+msgstr "パーミッション拒否です。"

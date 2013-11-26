@@ -1,63 +1,28 @@
 # SOME DESCRIPTIVE TITLE.
 # Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
 # This file is distributed under the same license as the PACKAGE package.
-#
+# 
 # Translators:
-#   <vlahavas@gmail.com>, 2012.
+# gapan <vlahavas@gmail.com>, 2012
 msgid ""
 msgstr ""
-"Project-Id-Version: Salix Report-Msgid-Bugs-To:  POT-Creation-Date: "
-"2013-11-18 13:59+0200 PO-Revision-Date: 2012-07-03 09:46+0000 Last-"
-"Translator: gapan <vlahavas@gmail.com> Language-Team: LANGUAGE <LL@li.org> "
-"Language: el MIME-Version: 1.0 Content-Type: text/plain; charset=UTF-8 "
-"Content-Transfer-Encoding: 8bit Plural-Forms: nplurals=2; plural=(n != 1) \n"
+"Project-Id-Version: Salix\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2013-11-24 00:01+0200\n"
-
-#: src/gnsu-askpass:61
-msgid "Permission denied"
-msgstr "Άρνηση πρόσβασης"
+"PO-Revision-Date: 2013-11-26 10:28+0000\n"
+"Last-Translator: gapan <vlahavas@gmail.com>\n"
+"Language-Team: Greek (http://www.transifex.com/projects/p/salix/language/el/)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: el\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
 #: src/gnsu-askpass:59
 #, python-format
 msgid "Please enter the password for %s:"
 msgstr "Παρακαλούμε εισάγετε τον κωδικό για το χρήστη %s:"
 
-#~ msgid "Command not found"
-#~ msgstr "Η εντολή δεν βρέθηκε"
-
-#~ msgid "Command passed is invalid"
-#~ msgstr "Η εντολή που δόθηκε δεν ήταν έγκυρη"
-
-#~ msgid "Could not run '%s'"
-#~ msgstr "Δεν ήταν δυνατό να εκτελεστεί το '%s'"
-
-#~ msgid "Could not run command"
-#~ msgstr "Δεν ήταν δυνατό να εκτελεστεί η εντολή"
-
-#~ msgid "Invalid username or password"
-#~ msgstr "Μη έγκυρο όνομα χρήστη ή κωδικός"
-
-#~ msgid "No command given"
-#~ msgstr "Δεν δόθηκε εντολή"
-
-#~ msgid "No message and command specified"
-#~ msgstr "Δεν ορίστηκαν μήνυμα και εντολή"
-
-#~ msgid "No user and command specified"
-#~ msgstr "Δεν ορίστηκαν χρήστης και εντολή"
-
-#~ msgid "Password"
-#~ msgstr "Κωδικός"
-
-#~ msgid "Please enter the desired username and password:"
-#~ msgstr "Παρακαλούμε εισάγετε το επιθυμητό όνομα χρήστη και κωδικό:"
-
-#~ msgid "Success"
-#~ msgstr "Επιτυχία"
-
-#~ msgid "Unknown error calling the su command"
-#~ msgstr "Άγνωστο σφάλμα κατά την εκτέλεση της εντολής su"
-
-#~ msgid "Username"
-#~ msgstr "Όνομα χρήστη"
+#: src/gnsu-askpass:61
+msgid "Permission denied"
+msgstr "Άρνηση πρόσβασης"

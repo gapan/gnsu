@@ -1,64 +1,29 @@
 # SOME DESCRIPTIVE TITLE.
 # Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
 # This file is distributed under the same license as the PACKAGE package.
-#
+# 
 # Translators:
-#   <kerd89@gmail.com>, 2012.
-# Kerd <kerd89@gmail.com>, 2011.
+# Kerd <kerd89@gmail.com>, 2012
+# Kerd <kerd89@gmail.com>, 2011
 msgid ""
 msgstr ""
-"Project-Id-Version: Salix Report-Msgid-Bugs-To:  POT-Creation-Date: "
-"2013-11-18 13:59+0200 PO-Revision-Date: 2012-07-03 16:29+0000 Last-"
-"Translator: Kerd <kerd89@gmail.com> Language-Team: LANGUAGE <LL@li.org> "
-"Language: it MIME-Version: 1.0 Content-Type: text/plain; charset=UTF-8 "
-"Content-Transfer-Encoding: 8bit Plural-Forms: nplurals=2; plural=(n != 1) \n"
+"Project-Id-Version: Salix\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2013-11-24 00:01+0200\n"
-
-#: src/gnsu-askpass:61
-msgid "Permission denied"
-msgstr "Permesso negato"
+"PO-Revision-Date: 2013-11-26 10:28+0000\n"
+"Last-Translator: gapan <vlahavas@gmail.com>\n"
+"Language-Team: Italian (http://www.transifex.com/projects/p/salix/language/it/)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: it\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
 #: src/gnsu-askpass:59
 #, python-format
 msgid "Please enter the password for %s:"
 msgstr "Per favore inserisci la password per %s:"
 
-#~ msgid "Command not found"
-#~ msgstr "Comando non trovato"
-
-#~ msgid "Command passed is invalid"
-#~ msgstr "Il comando passato non è valido"
-
-#~ msgid "Could not run '%s'"
-#~ msgstr "Impossibile eseguire '%s'"
-
-#~ msgid "Could not run command"
-#~ msgstr "Impossibile eseguire il comando"
-
-#~ msgid "Invalid username or password"
-#~ msgstr "Nome utente o password non validi"
-
-#~ msgid "No command given"
-#~ msgstr "Nessun comando dato"
-
-#~ msgid "No message and command specified"
-#~ msgstr "Nessun messaggio e comando specificato"
-
-#~ msgid "No user and command specified"
-#~ msgstr "Nessun utente e comando specificato"
-
-#~ msgid "Password"
-#~ msgstr "Password"
-
-#~ msgid "Please enter the desired username and password:"
-#~ msgstr "Per favore inserisci il nome utente e password:"
-
-#~ msgid "Success"
-#~ msgstr "Successo"
-
-#~ msgid "Unknown error calling the su command"
-#~ msgstr "Errore sconosciuto eseguendo su"
-
-#~ msgid "Username"
-#~ msgstr "Username"
+#: src/gnsu-askpass:61
+msgid "Permission denied"
+msgstr "Permesso negato"

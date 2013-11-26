@@ -1,56 +1,28 @@
 # SOME DESCRIPTIVE TITLE.
 # Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
 # This file is distributed under the same license as the PACKAGE package.
-#
+# 
 # Translators:
-#   <sgasior1@gmail.com>, 2011.
+# ink3 <sgasior1@gmail.com>, 2011
 msgid ""
 msgstr ""
-"Project-Id-Version: Salix Report-Msgid-Bugs-To:  POT-Creation-Date: "
-"2013-11-18 13:59+0200 PO-Revision-Date: 2012-07-03 09:46+0000 Last-"
-"Translator: gapan <vlahavas@gmail.com> Language-Team: Polish (http://www."
-"transifex.com/projects/p/salix/language/pl/) Language: pl MIME-Version: 1.0 "
-"Content-Type: text/plain; charset=UTF-8 Content-Transfer-Encoding: 8bit "
-"Plural-Forms: nplurals=3; plural=(n==1 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 "
-"|| n%100>=20) ? 1 : 2) \n"
+"Project-Id-Version: Salix\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2013-11-24 00:01+0200\n"
-
-#: src/gnsu-askpass:61
-msgid "Permission denied"
-msgstr "Dostęp zabroniony"
+"PO-Revision-Date: 2013-11-26 10:28+0000\n"
+"Last-Translator: gapan <vlahavas@gmail.com>\n"
+"Language-Team: Polish (http://www.transifex.com/projects/p/salix/language/pl/)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: pl\n"
+"Plural-Forms: nplurals=3; plural=(n==1 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
 
 #: src/gnsu-askpass:59
 #, python-format
 msgid "Please enter the password for %s:"
 msgstr "Proszę podać hasło dla %s:"
 
-#~ msgid "Command not found"
-#~ msgstr "Polecenie nie znalezione"
-
-#~ msgid "Could not run '%s'"
-#~ msgstr "Nie można uruchomić '%s'"
-
-#~ msgid "Could not run command"
-#~ msgstr "Nie można uruchomić komendy"
-
-#~ msgid "No command given"
-#~ msgstr "Brak podanego polecenia"
-
-#~ msgid "No message and command specified"
-#~ msgstr "Nie określona wiadomość i polecenie"
-
-#~ msgid "No user and command specified"
-#~ msgstr "Nie określony użytkownik i polecenie "
-
-#~ msgid "Password"
-#~ msgstr "Hasło"
-
-#~ msgid "Please enter the desired username and password:"
-#~ msgstr "Wpisz żądaną  nazwę użytkownika i hasło:"
-
-#~ msgid "Success"
-#~ msgstr "Sukces"
-
-#~ msgid "Username"
-#~ msgstr "Użytkownik"
+#: src/gnsu-askpass:61
+msgid "Permission denied"
+msgstr "Dostęp zabroniony"

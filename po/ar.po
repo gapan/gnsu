@@ -1,56 +1,28 @@
 # SOME DESCRIPTIVE TITLE.
 # Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
 # This file is distributed under the same license as the PACKAGE package.
-#
+# 
 # Translators:
-# mohammad <malham1@gmail.com>, 2012.
+# محمد الحرقان <malham1@gmail.com>, 2012
 msgid ""
 msgstr ""
-"Project-Id-Version: Salix Report-Msgid-Bugs-To:  POT-Creation-Date: "
-"2013-11-18 13:59+0200 PO-Revision-Date: 2012-07-03 09:46+0000 Last-"
-"Translator: gapan <vlahavas@gmail.com> Language-Team: LANGUAGE <LL@li.org> "
-"Language: ar MIME-Version: 1.0 Content-Type: text/plain; charset=UTF-8 "
-"Content-Transfer-Encoding: 8bit Plural-Forms: nplurals=6; plural=n==0 ? 0 : "
-"n==1 ? 1 : n==2 ? 2 : n%100>=3 && n%100<=10 ? 3 : n%100>=11 && n%100<=99 ? "
-"4 : 5 \n"
+"Project-Id-Version: Salix\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2013-11-24 00:01+0200\n"
-
-#: src/gnsu-askpass:61
-msgid "Permission denied"
-msgstr "رفض الإذن"
+"PO-Revision-Date: 2013-11-26 10:28+0000\n"
+"Last-Translator: gapan <vlahavas@gmail.com>\n"
+"Language-Team: Arabic (http://www.transifex.com/projects/p/salix/language/ar/)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: ar\n"
+"Plural-Forms: nplurals=6; plural=n==0 ? 0 : n==1 ? 1 : n==2 ? 2 : n%100>=3 && n%100<=10 ? 3 : n%100>=11 && n%100<=99 ? 4 : 5;\n"
 
 #: src/gnsu-askpass:59
 #, python-format
 msgid "Please enter the password for %s:"
 msgstr "الرجاء إدخال  كلمة المرور %s:"
 
-#~ msgid "Command not found"
-#~ msgstr "لم يُعثَر على الأمر"
-
-#~ msgid "Could not run '%s'"
-#~ msgstr "لا يمكن تشغيل '%s'"
-
-#~ msgid "Could not run command"
-#~ msgstr "تعذّر تشغيل الأمر"
-
-#~ msgid "No command given"
-#~ msgstr "لم يُقدم أي أمر"
-
-#~ msgid "No message and command specified"
-#~ msgstr "لم يُحدد رسالة أو أمر"
-
-#~ msgid "No user and command specified"
-#~ msgstr "لم يُحدد مستخدم أو أمر"
-
-#~ msgid "Password"
-#~ msgstr "كلمة المرور"
-
-#~ msgid "Please enter the desired username and password:"
-#~ msgstr "الرجاء إدخال المطلوب  اسم المستخدم وكلمة المرور:"
-
-#~ msgid "Success"
-#~ msgstr "نجح"
-
-#~ msgid "Username"
-#~ msgstr "إسم المستخدم"
+#: src/gnsu-askpass:61
+msgid "Permission denied"
+msgstr "رفض الإذن"
