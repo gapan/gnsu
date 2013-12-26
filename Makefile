@@ -46,4 +46,4 @@ install-mo:
 install-man:
 	install -Dm 644 man/gnsu.man $(DESTDIR)/$(PREFIX)/man/man8/gnsu.8
 
-.PHONY: mo updatepo pot man clean install install-gnsu install-mo install-man
+.PHONY: all mo updatepo pot man clean install install-gnsu install-mo install-man
