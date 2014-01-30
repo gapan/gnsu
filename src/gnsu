@@ -9,10 +9,10 @@ CMD="$@"
 LIBEXECDIR=/usr/libexec
 
 init() {
-	export PATH="${PATH}:/sbin:/usr/sbin:/usr/local/sbin"
+	export PATH="/sbin:/usr/sbin:${PATH}" # PATH after or someone can fake "sudo" binary with it's own.
 
 	# Translations only work with utf8 locales
-	if [ ! `echo $LANG | grep -i utf` ]; then
+	if ! echo $LANG | grep -qi utf; then
 		LANG=C
 	fi
 
@@ -86,7 +86,7 @@ passwordloop() {
 			execcommand
 			exit
 		else
-			let COUNT--
+			COUNT=$(($COUNT - 1))
 			passwordloop
 		fi
 	else
