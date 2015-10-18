@@ -15,7 +15,9 @@ gettext.bindtextdomain("gnsu", "/usr/share/locale")
 gettext.textdomain("gnsu")
 _ = gettext.gettext
 
+
 class Gnsu():
+
     def on_button_ok_clicked(self, widget, data=None):
         self.window.hide()
         print self.entry_password.get_text()
@@ -28,14 +30,15 @@ class Gnsu():
     def gtk_main_quit(self, widget, data=None):
         gtk.main_quit()
         sys.exit(1)
-    
+
     def __init__(self):
         user = None
         title = None
         permission_denied = False
         try:
             argv = sys.argv[1:]
-            opts, args = getopt.getopt(argv, "u:t:p", ['user=', 'title=', 'permission-denied'])
+            opts, args = getopt.getopt(
+                argv, "u:t:p", ['user=', 'title=', 'permission-denied'])
             for opt, arg in opts:
                 if opt in ("-u", "--user"):
                     user = arg
@@ -57,10 +60,10 @@ class Gnsu():
         self.window.set_title(title)
         self.label_msg = builder.get_object('label_msg')
         self.entry_password = builder.get_object('entry_password')
-        msg = _('Please enter the password for %s:')%user
+        msg = _('Please enter the password for %s:') % user
         if permission_denied:
-            msg = _('Permission denied')+'\n\n'+msg
-        self.label_msg.set_text(msg)    
+            msg = _('Permission denied') + '\n\n' + msg
+        self.label_msg.set_text(msg)
         builder.connect_signals(self)
 
 if __name__ == "__main__":
