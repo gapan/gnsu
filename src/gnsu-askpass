@@ -62,7 +62,7 @@ class Gnsu():
         self.entry_password = builder.get_object('entry_password')
         msg = _('Please enter the password for %s:') % user
         if permission_denied:
-            msg = _('Permission denied') + '\n\n' + msg
+            msg = "{}\n\n{}".format(_('Permission denied'), msg)
         self.label_msg.set_text(msg)
         builder.connect_signals(self)
 
