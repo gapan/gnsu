@@ -33,7 +33,7 @@ init() {
 
 help() {
 	cat <<- EOF
-	Usage: $0 [SUDO OPTIONS] command [COMMAND ARGUMENTS]
+	Usage: gnsu [SUDO OPTIONS] command [COMMAND ARGUMENTS]
 	Run a command as another user through sudo
 	
 	OPTIONS:
