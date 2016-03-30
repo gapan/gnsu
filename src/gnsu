@@ -12,7 +12,7 @@ init() {
 	export PATH="/sbin:/usr/sbin:${PATH}" # PATH after or someone can fake "sudo" binary with it's own.
 
 	# Translations only work with utf8 locales
-	if ! echo $LANG | grep -qi utf; then
+	if ! locale -k charmap|grep -q UTF-8 ; then
 		LANG=C
 	fi
 
