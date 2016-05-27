@@ -49,4 +49,21 @@ install-man:
 transifex:
 	tx pull -a
 
-.PHONY: all mo updatepo pot man clean install install-gnsu install-mo install-man transifex
+tx-pull:
+	tx pull -a
+	@for i in `ls po/*.po`; do \
+		msgfmt --statistics $$i 2>&1 | grep "^0 translated" > /dev/null \
+			&& rm $$i || true; \
+	done
+	@rm -f messages.mo
+
+stat:
+	@for i in `ls po/*.po`; do \
+		echo "Statistics for $$i:"; \
+		msgfmt --statistics $$i 2>&1; \
+		echo; \
+	done
+	@rm -f messages.mo
+
+
+.PHONY: all mo updatepo pot man clean install install-gnsu install-mo install-man transifex tx-pull stat
