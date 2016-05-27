@@ -56,10 +56,6 @@ install-mo:
 install-man:
 	install -Dm 644 man/gnsu.man $(DESTDIR)/$(PREFIX)/man/man8/gnsu.8
 
-.PHONY: transifex
-transifex:
-	tx pull -a
-
 .PHONY: tx-pull
 tx-pull:
 	tx pull -a
