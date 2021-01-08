@@ -25,7 +25,6 @@
             <child>
               <object class="GtkButton" id="button_cancel">
                 <property name="label">gtk-cancel</property>
-                <property name="use_action_appearance">False</property>
                 <property name="visible">True</property>
                 <property name="can_focus">True</property>
                 <property name="receives_default">True</property>
@@ -41,7 +40,6 @@
             <child>
               <object class="GtkButton" id="button_ok">
                 <property name="label">gtk-ok</property>
-                <property name="use_action_appearance">False</property>
                 <property name="visible">True</property>
                 <property name="can_focus">True</property>
                 <property name="can_default">True</property>
@@ -96,6 +94,7 @@
                     <property name="label">Please enter the password:</property>
                     <property name="wrap">True</property>
                     <property name="width_chars">30</property>
+                    <property name="max_width_chars">40</property>
                   </object>
                   <packing>
                     <property name="expand">False</property>
@@ -119,6 +118,7 @@
                   <packing>
                     <property name="expand">True</property>
                     <property name="fill">True</property>
+                    <property name="padding">6</property>
                     <property name="position">1</property>
                   </packing>
                 </child>
