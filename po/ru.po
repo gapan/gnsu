@@ -3,13 +3,14 @@
 # This file is distributed under the same license as the PACKAGE package.
 # 
 # Translators:
-# goriy <wolfr2@gmail.com>, 2012
+# Gregory <wolfr2@gmail.com>, 2012
+# Gregory <wolfr2@gmail.com>, 2012
 msgid ""
 msgstr ""
 "Project-Id-Version: Salix\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2013-11-24 00:01+0200\n"
-"PO-Revision-Date: 2015-08-11 11:23+0000\n"
+"PO-Revision-Date: 2017-09-19 22:08+0000\n"
 "Last-Translator: gapan <vlahavas@gmail.com>\n"
 "Language-Team: Russian (http://www.transifex.com/gapan/salix/language/ru/)\n"
 "MIME-Version: 1.0\n"
