@@ -41,7 +41,7 @@ install-gnsu:
 	sed -i "s|^LIBEXECDIR=.*|LIBEXECDIR=$(LIBEXEC_DIR)|" $(DESTDIR)/$(PREFIX)/bin/gnsu
 	install -Dm 755 src/gnsu-helper $(DESTDIR)/$(LIBEXEC_DIR)/gnsu-helper
 	install -Dm 755 src/gnsu-askpass $(DESTDIR)/$(LIBEXEC_DIR)/gnsu-askpass
-	install -Dm 644 src/gnsu-askpass.glade $(DESTDIR)/$(PREFIX)/share/gnsu/gnsu-askpass.glade
+	install -Dm 644 src/gnsu-askpass.ui $(DESTDIR)/$(PREFIX)/share/gnsu/gnsu-askpass.ui
 
 .PHONY: install-mo
 install-mo:
